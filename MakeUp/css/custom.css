@@ -1,0 +1,31 @@
+.heder{
+	background-color: #111;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	width: 100%;	
+	background-image: url("../img/longLogo.png");
+    background: -webkit-linear-gradient(left, #ffc6c7 , #fff);
+    background: -o-linear-gradient(right, #ffc6c7, #fff);
+    background: -moz-linear-gradient(right, #ffc6c7, #fff);
+    background: linear-gradient(to right, #ffc6c7 , #fff);
+}
+
+.container>.longLogo>img {
+	margin: auto;
+}
+
+.navbar-default {
+	border-color: #000;
+}
+
+.navbar {
+    border-radius: 0px;
+}
+
+.navbar-nav {
+	margin: 15px;
+	font-size: 16px;
+}
