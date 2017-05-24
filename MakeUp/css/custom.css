@@ -5,15 +5,28 @@
 body {
 	padding: 0;
 	margin: 0;
+	
+	overflow:hidden;
 }
 
 .container {
+	padding-top:100px;
     width: 100%;
 }
 
 .container>.longLogo>img {
 	
 	margin: auto;
+}
+
+#slider {
+	padding-top: 25px;
+	width: 50%;
+	margin: auto;
+}
+
+#sliderArrow {
+	margin: 50px;
 }
 
 .navbar-default {
@@ -36,8 +49,17 @@ body {
 
 .imgFront>img {
 	padding: 5px;
-	margin-left: 50px;
+	margin-right: 50px;
 	max-width: 350px;
+}
+
+.fontText {
+	text-align: center;
+	font-family: "Segoe Script";
+	font-style: italic;
+	font-size: 20px;
+	
+	margin: 5% 10%
 }
 
 .page {
